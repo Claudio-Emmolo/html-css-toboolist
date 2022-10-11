@@ -32,7 +32,7 @@ header h1{
 /* ----------MAIN----------- */
 main{
     width: 75%;
-    height: 80px;
+    height: auto;
     background-color: rgb(255, 255, 255);
     margin: 3.5rem auto;
 }
@@ -61,4 +61,45 @@ section.btn button{
     background-color: white;
     color: gray;
     border: 1px solid gray;
+}
+
+/* ----------LIST----------- */
+
+div.list-container{
+    width: 100%;
+    padding: 4rem;
+}
+
+ul{
+    margin-top: 1rem;
+}
+
+ul li{
+    list-style: none;
+    font-size: 1.1rem;
+}
+
+.conferm{
+    font-size: .6rem;
+    padding: .1rem .2rem;
+    color: green;
+    border: 1px solid green;
+    border-radius: 100%;
+    vertical-align: middle;
+}
+
+.delete{
+    padding: .1rem .2rem;
+    color: red;
+    border: 1px solid red;
+    border-radius: 100%;
+}
+
+.tag{
+    color: white;
+    font-size: .7rem;
+    background-color: #47adf1;
+    border-radius: 50px;
+    padding: .5rem .4rem;
+    vertical-align: middle;
 }
