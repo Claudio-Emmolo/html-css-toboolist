@@ -27,5 +27,38 @@ header img{
 header h1{
     font-size: 4rem;
     display: inline-block;
-    font-weight: bold;
+}
+
+/* ----------MAIN----------- */
+main{
+    width: 75%;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    margin: 3.5rem auto;
+}
+
+/* Section button */
+
+section.btn{
+    padding: .6rem 3rem;
+
+    border-bottom: 1px solid lightgrey;
+}
+
+section.btn button{
+    margin-right: .7rem;
+    padding: .4rem;
+    border-radius: 5px;
+}
+
+.btn-blue{
+    background-color: #47adf1;
+    color: white;
+    border: 1px solid #47adf1;
+}
+
+.btn-grey{
+    background-color: white;
+    color: gray;
+    border: 1px solid gray;
 }
