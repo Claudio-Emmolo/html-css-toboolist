@@ -70,11 +70,16 @@ div.list-container{
     padding: 4rem;
 }
 
+div.list-container section{
+    margin-bottom: 4.5rem;
+}
+
 ul{
     margin-top: 1rem;
 }
 
 ul li{
+    margin-top: 1rem;
     list-style: none;
     font-size: 1.1rem;
 }
@@ -89,6 +94,7 @@ ul li{
 }
 
 .delete{
+    font-size: .6rem;
     padding: .1rem .2rem;
     color: red;
     border: 1px solid red;
@@ -102,4 +108,17 @@ ul li{
     border-radius: 50px;
     padding: .5rem .4rem;
     vertical-align: middle;
+}
+
+/* tag color */
+.q1goals{
+    background-color: #9c72e4;
+}
+
+.recruiting{
+    background-color: #64c0a9;
+}
+
+.mobile{
+    background-color: #f29e33;
 }
